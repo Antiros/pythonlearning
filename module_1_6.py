@@ -19,9 +19,11 @@ print(my_dict)
 
 # Множества
 # 1
-my_set = {'ANT', 1, 2, 3, True, 'ANT', 1, 2, 3, True}
+my_set = {'ANT', 1, 2, 3, True, 'ANT', 1, 2, 3, False}
 print(my_set)
 # 2
-my_set.add(False)
-my_set.add((5, 2.2, 'str'))
+my_set.add('False')
+my_set.add((5, 9.4, 'str'))
+# 3
+my_set.discard(False)
 print(my_set)
