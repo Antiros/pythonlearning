@@ -35,6 +35,6 @@ def calculate_structure_sum(data):
         total_sum += len(data)
     else:
         sub_sum(data)
-    return
-calculate_structure_sum(data_structure)
-print(total_sum)
+    return total_sum
+result = calculate_structure_sum(data_structure)
+print(result)
