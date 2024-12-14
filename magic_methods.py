@@ -17,7 +17,7 @@ class Magic:
 
 
     def __iadd__(self, other):
-            return self.__add__(other)
+        return self.__add__(other)
 
 
     def __radd__(self, other):
