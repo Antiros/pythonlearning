@@ -8,8 +8,7 @@ if __name__ == "__main__":
     h1 = Magic('ЖК Эльбрус', 10)
     h2 = Magic('ЖК Акация', 20)
 
-# __str__
-    print(h1)
+    print(h1) # __str__
     print(h2)
 
     print(h1 == h2) # __eq__
